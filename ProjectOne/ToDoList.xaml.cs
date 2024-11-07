@@ -19,9 +19,21 @@ namespace ProjectOne
     /// </summary>
     public partial class ToDoList : Window
     {
+        private Todos todos;
         public ToDoList()
         {
             InitializeComponent();
+            todos = new Todos();
+            DataContext = todos;
+        }
+
+        private void AddTodoButton_clicked(object sender, RoutedEventArgs e)
+        {
+            Todo todo = new Todo()
+            {
+                Desc = NewTodoTextBox.Text
+            };
+            todos.AllTodos.Add(todo);
         }
     }
 }
