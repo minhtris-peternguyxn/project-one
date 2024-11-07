@@ -53,7 +53,8 @@
               "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\App.xaml",
               "RelativeToolTip": "ProjectOne\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-02T16:03:45.657Z"
+              "WhenOpened": "2024-11-02T16:03:45.657Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -63,7 +64,7 @@
               "RelativeDocumentMoniker": "ProjectOne\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\MainWindow.xaml.cs",
               "RelativeToolTip": "ProjectOne\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAQwF4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAMwF8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T14:53:49.411Z",
               "EditorCaption": ""
@@ -134,7 +135,8 @@
               "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\MainWindow.xaml",
               "RelativeToolTip": "ProjectOne\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-02T14:53:51.243Z"
+              "WhenOpened": "2024-11-02T14:53:51.243Z",
+              "EditorCaption": ""
             }
           ]
         }
