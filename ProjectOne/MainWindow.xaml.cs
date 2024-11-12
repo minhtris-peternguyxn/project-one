@@ -107,5 +107,11 @@ namespace ProjectOne
             Notes notesWindow = new Notes();
             notesWindow.ShowDialog();
         }
+
+        private void Alarm_Click(object sender, RoutedEventArgs e)
+        {
+            AlarmClock alarmWindow = new AlarmClock();
+            alarmWindow.ShowDialog();
+        }
     }
 }
