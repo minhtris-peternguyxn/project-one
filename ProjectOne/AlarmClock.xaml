@@ -9,7 +9,7 @@
 
     <Grid>
         <Rectangle HorizontalAlignment="Center" Height="414" Stroke="Black" VerticalAlignment="Center" Width="756" Fill="#A7C7E7"/>
-        <Label Content="Set Alarm Time" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,23,0,0" FontSize="20" FontWeight="ExtraBold"/>
+        <Label Content="SET ARLAM TIME" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,23,0,0" FontSize="20" FontWeight="ExtraBold"/>
         <Rectangle HorizontalAlignment="Center" Height="250" Margin="0,74,0,0" Stroke="Black" VerticalAlignment="Top" Width="290" Fill="#f9e79f"/>
 
         <!-- TextBox cho giờ -->
