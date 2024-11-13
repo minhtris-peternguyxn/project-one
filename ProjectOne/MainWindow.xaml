@@ -11,15 +11,15 @@
         <TextBlock Text="Welcome to ProjectOne" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
 
         <!-- Frame for Page Navigation -->
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,60,0,0" RenderTransformOrigin="0.5,0.504"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,60,0,0" RenderTransformOrigin="0.5,0.504" Background="#aed6f1"/>
 
         <!-- Buttons for Navigation -->
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Margin="0,90,0,0">
-            <Button x:Name="ToDoListButton" Content="To-do List" Height="62" Margin="0,10,0,0" Click="ToDoList_Click"/>
-            <Button x:Name="WriteNotesButton" Content="Write Notes" Height="62" Margin="0,10,0,0" Click="WriteNotes_Click"/>
-            <Button x:Name="PomodoroButton" Content="Pomodoro Timer" Height="62" Margin="0,10,0,0" Click="Pomodoro_Click"/>
-            <Button x:Name="AlarmButton" Content="Alarm Clock" Height="62" Margin="0,10,0,0" Click="Alarm_Click"/>
+            <Button x:Name="ToDoListButton" Content="To-do List" Height="62" Click="ToDoList_Click" Style="{StaticResource ToDoListButtonStyle}"/>
+            <Button x:Name="WriteNotesButton" Content="Write Notes" Height="62" Margin="0,10,0,0" Click="WriteNotes_Click" Style="{StaticResource WriteNotesButtonStyle}"/>
+            <Button x:Name="PomodoroButton" Content="Pomodoro Timer" Height="62" Margin="0,10,0,0" Click="Pomodoro_Click" Style="{StaticResource PomodoroButtonStyle}"/>
+            <Button x:Name="AlarmButton" Content="Alarm Clock" Height="62" Margin="0,10,0,0" Click="Alarm_Click" Style="{StaticResource AlramButtonStyle}"/>
         </StackPanel>
-        
+
     </Grid>
 </Window>

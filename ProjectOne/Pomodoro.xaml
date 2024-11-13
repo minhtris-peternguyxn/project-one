@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Pomodoro Timer" Height="450" Width="800" Background="#FFFAFAFA">
     <Grid Margin="10">
+        <Rectangle HorizontalAlignment="Left" Height="364" Margin="230,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="330" Fill="#87CEFA"/>
         <TextBlock Text="Pomodoro Timer" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,20" Foreground="#FF333333"/>
 
         <TextBlock x:Name="CountdownTimer" FontSize="48" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#FF2F2F2F" Margin="0,50,0,0">
@@ -27,21 +28,21 @@
                 <ColumnDefinition Width="50"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Text="Study Time (min):" VerticalAlignment="Center" />
-            <TextBox x:Name="StudyTimeTextBox" Width="40" Height="25" Margin="5" MaxLength="2" Text="25" Grid.Column="1" VerticalAlignment="Center"/>
+            <TextBlock Text="Study Time (min):" VerticalAlignment="Center" Grid.Column="1" Margin="130,0,-230,0" />
+            <TextBox x:Name="StudyTimeTextBox" Width="40" Height="26" Margin="305,0,-295,0" MaxLength="2" Text="25" Grid.Column="1" VerticalAlignment="Center"/>
 
-            <TextBlock Text="Break Time (min):" Grid.Row="1" VerticalAlignment="Center"/>
-            <TextBox x:Name="BreakTimeTextBox" Width="40" Height="25" Margin="5" MaxLength="2" Text="5" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center"/>
+            <TextBlock Text="Break Time (min):" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" Margin="130,15,-230,0" Grid.RowSpan="2"/>
+            <TextBox x:Name="BreakTimeTextBox" Width="40" Height="25" Margin="305,10,-295,0" MaxLength="2" Text="5" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Grid.RowSpan="2"/>
 
-            <TextBlock Text="Cycles:" Grid.Row="2" VerticalAlignment="Center"/>
-            <TextBox x:Name="CyclesTextBox" Width="40" Height="25" Margin="5" MaxLength="2" Text="4" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center"/>
+            <TextBlock Text="Cycles:" Grid.Row="2" VerticalAlignment="Top" Grid.Column="1" Margin="130,53,-230,0"/>
+            <TextBox x:Name="CyclesTextBox" Width="40" Height="25" Margin="305,53,-295,0" MaxLength="2" Text="4" Grid.Column="1" Grid.Row="2" VerticalAlignment="Top"/>
         </Grid>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,20,0,20">
             <Button x:Name="StartButton" Content="Start" Width="100" Height="40" Click="StartButton_Click" Background="#FF4CAF50" Foreground="White" FontWeight="Bold"/>
             <Button x:Name="PauseButton" Content="Pause" Width="100" Height="40" Margin="10,0,0,0" Click="PauseButton_Click" Background="#FFFFC107" Foreground="White" FontWeight="Bold" Visibility="Collapsed"/>
             <Button x:Name="StopButton" Content="Stop" Width="100" Height="40" Margin="10,0,0,0" Click="StopButton_Click" Background="#FFF44336" Foreground="White" FontWeight="Bold" Visibility="Collapsed"/>
-            <Button x:Name="SubmitButton" Content="Submit" Width="100" Height="40" Margin="10,0,0,0" Click="SubmitButton_Click" Background="#FF2196F3" Foreground="White" FontWeight="Bold"/>
+            <Button x:Name="SubmitButton" Content="Submit" Width="100" Height="40" Margin="10,0,0,0" Click="SubmitButton_Click" Background="Orange" Foreground="White" FontWeight="Bold"/>
         </StackPanel>
 
         <TextBlock x:Name="StatusText" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,60,0,0" Foreground="#FF888888"/>

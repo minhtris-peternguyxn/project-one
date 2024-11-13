@@ -92,7 +92,7 @@ namespace ProjectOne
 
         private void Pomodoro_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            //this.Close();
             Pomodoro.GetInstance();
         }
 
