@@ -14,8 +14,6 @@ namespace ProjectOne
         {
             _allTodos = new ObservableCollection<Todo>()
             {
-                new Todo() { Desc = "an sang" },
-                new Todo() {Desc = "hoc PRN thay hoang" }
             };
         }
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -33,6 +31,10 @@ namespace ProjectOne
                 _allTodos = value;
                 OnPropertyChanged(nameof(AllTodos));
             }
+        }
+        public void Remove(Todo todo)
+        {
+            _allTodos.Remove(todo);
         }
     }
 }

@@ -56,9 +56,14 @@
                 <ListView ItemsSource="{Binding AllTodos}" Background="Transparent">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <CheckBox IsChecked="{Binding IsDone}" Content="{Binding Desc}"
-                                      FontSize="16" Margin="10,5" 
-                                      Foreground="#555555" />
+                            <StackPanel Orientation="Horizontal" Margin="10,5">
+                                <CheckBox IsChecked="{Binding IsDone}" Content="{Binding Desc}"
+                  FontSize="16" Margin="0,0,10,0" 
+                  Foreground="#555555" />
+                                <Button Content="Delete" Background="Red" Foreground="White" Width="60" 
+                Click="DeleteTodoButton_Clicked"
+                CommandParameter="{Binding}" />
+                            </StackPanel>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
@@ -69,6 +74,8 @@
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,20">
             <TextBox x:Name="NewTodoTextBox" Width="200" />
             <Button Content="Add Todo" Click="AddTodoButton_clicked" Width="100"/>
+            <Button Content="Suggest a work" Click="SuggestTaskButton_Clicked"  Width="100"/>
         </StackPanel>
+       
     </Grid>
 </Window>
