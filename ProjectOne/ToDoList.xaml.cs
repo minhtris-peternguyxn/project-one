@@ -35,20 +35,5 @@ namespace ProjectOne
             };
             todos.AllTodos.Add(todo);
         }
-
-        private void DeleteTodoButton_Clicked(object sender, RoutedEventArgs e)
-        {
-            // Use System.Windows.Controls.Button explicitly
-            var button = sender as System.Windows.Controls.Button;
-            if (button != null)
-            {
-                var todo = button.DataContext as Todo;
-                if (todo != null)
-                {
-                    todos.Remove(todo);
-                }
-            }
-        }
-
     }
 }

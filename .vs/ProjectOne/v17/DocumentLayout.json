@@ -1,231 +1,230 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\project-one\\",
+  "WorkspaceRootPath": "E:\\PRN-Proj\\project-one\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\alarmclock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\alarmclock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\alarmclock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\alarmclock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\pomodoro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\pomodoro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\notes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\notes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\notes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\notes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\pomodoro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\pomodoro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\pomodoro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\notes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\notes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\pomodoro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\pomodoro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\resources\\congrat.wav||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\resources\\congrat.wav||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\todolist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\todolist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\todolist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\project-one\\projectone\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\alarmclock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\alarmclock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\alarmclock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\alarmclock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\resources\\congrat.wav||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\resources\\congrat.wav||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|e:\\prn-proj\\project-one\\projectone\\notes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\notes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 185,
       "DocumentGroups": [
         {
           "DockedHeight": 11,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "AlarmClock.xaml.cs",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\AlarmClock.xaml.cs",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\AlarmClock.xaml.cs",
               "RelativeDocumentMoniker": "ProjectOne\\AlarmClock.xaml.cs",
-              "ToolTip": "C:\\project-one\\ProjectOne\\AlarmClock.xaml.cs",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\AlarmClock.xaml.cs",
               "RelativeToolTip": "ProjectOne\\AlarmClock.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T15:41:11.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Notes.xaml.cs",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\Notes.xaml.cs",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\Notes.xaml.cs",
               "RelativeDocumentMoniker": "ProjectOne\\Notes.xaml.cs",
-              "ToolTip": "C:\\project-one\\ProjectOne\\Notes.xaml.cs",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\Notes.xaml.cs",
               "RelativeToolTip": "ProjectOne\\Notes.xaml.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:58:47.929Z"
+              "WhenOpened": "2024-11-07T14:58:47.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Todo.cs",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\Todo.cs",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\Todo.cs",
               "RelativeDocumentMoniker": "ProjectOne\\Todo.cs",
-              "ToolTip": "C:\\project-one\\ProjectOne\\Todo.cs",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\Todo.cs",
               "RelativeToolTip": "ProjectOne\\Todo.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:41:44.424Z"
+              "WhenOpened": "2024-11-07T14:41:44.424Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Pomodoro.xaml.cs",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\Pomodoro.xaml.cs",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\Pomodoro.xaml.cs",
               "RelativeDocumentMoniker": "ProjectOne\\Pomodoro.xaml.cs",
-              "ToolTip": "C:\\project-one\\ProjectOne\\Pomodoro.xaml.cs",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\Pomodoro.xaml.cs",
               "RelativeToolTip": "ProjectOne\\Pomodoro.xaml.cs",
-              "ViewState": "AgIAANwAAAAAAAAAAAAQwO8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALIAAAAAAAAAAAAmwO8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:59:54.551Z"
+              "WhenOpened": "2024-11-02T15:59:54.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProjectOne\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\project-one\\ProjectOne\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\MainWindow.xaml.cs",
               "RelativeToolTip": "ProjectOne\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwHEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T14:53:49.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AlarmClock.xaml",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\AlarmClock.xaml",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\AlarmClock.xaml",
               "RelativeDocumentMoniker": "ProjectOne\\AlarmClock.xaml",
-              "ToolTip": "C:\\project-one\\ProjectOne\\AlarmClock.xaml",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\AlarmClock.xaml",
               "RelativeToolTip": "ProjectOne\\AlarmClock.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-07T15:41:02.344Z"
+              "WhenOpened": "2024-11-07T15:41:02.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Notes.xaml",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\Notes.xaml",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\Notes.xaml",
               "RelativeDocumentMoniker": "ProjectOne\\Notes.xaml",
-              "ToolTip": "C:\\project-one\\ProjectOne\\Notes.xaml",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\Notes.xaml",
               "RelativeToolTip": "ProjectOne\\Notes.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-02T15:53:09.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\MainWindow.xaml",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ProjectOne\\MainWindow.xaml",
-              "ToolTip": "C:\\project-one\\ProjectOne\\MainWindow.xaml",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\MainWindow.xaml",
               "RelativeToolTip": "ProjectOne\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-02T14:53:51.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\App.xaml",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\App.xaml",
               "RelativeDocumentMoniker": "ProjectOne\\App.xaml",
-              "ToolTip": "C:\\project-one\\ProjectOne\\App.xaml",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\App.xaml",
               "RelativeToolTip": "ProjectOne\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-02T16:03:45.657Z"
+              "WhenOpened": "2024-11-02T16:03:45.657Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Pomodoro.xaml",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\Pomodoro.xaml",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\Pomodoro.xaml",
               "RelativeDocumentMoniker": "ProjectOne\\Pomodoro.xaml",
-              "ToolTip": "C:\\project-one\\ProjectOne\\Pomodoro.xaml",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\Pomodoro.xaml",
               "RelativeToolTip": "ProjectOne\\Pomodoro.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-02T15:00:09.639Z"
+              "WhenOpened": "2024-11-02T15:00:09.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Todos.cs",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\Todos.cs",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\Todos.cs",
               "RelativeDocumentMoniker": "ProjectOne\\Todos.cs",
-              "ToolTip": "C:\\project-one\\ProjectOne\\Todos.cs",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\Todos.cs",
               "RelativeToolTip": "ProjectOne\\Todos.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:42:28.601Z"
+              "WhenOpened": "2024-11-07T14:42:28.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "congrat.wav",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\Resources\\congrat.wav",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\Resources\\congrat.wav",
               "RelativeDocumentMoniker": "ProjectOne\\Resources\\congrat.wav",
-              "ToolTip": "C:\\project-one\\ProjectOne\\Resources\\congrat.wav",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\Resources\\congrat.wav",
               "RelativeToolTip": "ProjectOne\\Resources\\congrat.wav",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATWSURBVFhH7VdLTFxVGP7mBTOUiEBJQAtFZJAFTBNISnRjG1kZNgQ2gksTcQFtDYkxEpSVLEis3RlcaNomLoxoYkI0sSYmyEPbMExBHiNOdMAiMJ1CmUdn5h7//9w73hnnXmZYmG78kn/O639857/nNXisEEJotf/x\u002BGDRyn\u002BwvLwsKioqYLPZoCiK1psPAlarDYlEAoFAABMTE1empqauaoMnw8rKiqDAtDxODiIg2H5mZkb09PQMay5PBnYQj8elQyaiKCmRSplJUiSTujD8fr9YX18XlMlUd3f3FXKZk\u002BVjkU3AKChLUkpm8DSBQOA3sb29Ldter1f09/dfJrd21XsurFppCONdKmQ/i8WSOTlV\u002BdGjBGKxmFxDdXV1GBgY\u002BKC3t/dNGjIkkZMezkBDQwOKi4sNFyFNUqsB4bjAJ7NBXL5wRrZtNjtWV1dx587P1LJK3dLSUtjtdnR1dTVQ5w5JhHXTODYDuchOCbOfXEtiMbArM0JpR3NzM/r6XkVnZyfa29tRW1sL/myk\u002BgxJGdtlokACbK\u002BmPhNPumywOUvw3lop4jIGk0jI7VhVVSXJtLW1ccmDTpKcz1AAAf2b6\u002BCG2n/KqmDHVYzXf9yntq7E2Ugk4lQTMguyokoW8hDInXXaB/cfJYGoSOENyxq\u002BTZTgo5mNDH2uqEuMM2IGEwIc2Dg496X7FWpHrSm88vxzGC45wPu3H0qdTD1VVzMwgCGBdAAd3PFvQnT80gSjVPPvhDHY8RTih9zKtFftjkNBa0D\u002Ban5476eliMZsQqFVrsDBnugM0HF84DTyrgH5SwUHtFqt8rt/vRnFZ5sJfPdHDKloCtVlLnzqDcMSO9KIZgfPzlw2TNcACxumjTn4l7\u002BEMfDNX3h7MYZ3fLT4fqLBhMApVxG\u002BuH0Pl9p4p\u002BnQ7TUnBjDNgBHrt34IwRuxYtfqxN7DGPZD96FEjhC4F8bYS6cx3PsiaamGur15cIYhgdzgnA0B59PVCIoSRPZoz4cp\u002BIMIYgcxFNsEPGfKKEvqtis0OKOANaA6oeMU5TubSFrofqh\u002Bgu4JF8SDPbzWGMXZ6kqpo0O3ywfDy6i\u002Bvp4uoyJ5GWVmYzd8iK/u/omF7QhcSQXnz5ah7wU\u002B4lUYzdzhcODg4FApLy/voqaPJCgHNJgSKCpSCajQHapBMlgRzFLO/Q6HHYeHTKDCkIDpJ5idncX4\u002BDjVBK5fvyHr7PDatQ8xNzcndUKhEAYHh3Dz5g2pF41GMTR0Cfv7Iak7NjYGr3dJ6prBlEBTkxvBoEp2Y2NDOuUAweAWjTXJAIuLXjQ2NmJpiScGuFwutLa2UttL5Pal/rlzHjlmBhMCApWVleDX8a1b38u6291IM5\u002BVQSidUmthYQEXL16QenNz87KPCfj9vxKJJVnPh2N3gcfjwfT0tJwly/z8guxjbG0FSbYwOfmxLH0\u002Bn8yKx9Mq6z7fXVnPhxwCvN/pMSzF7XbLNHLJaedAbvezpKUQmXl0dJynNXEVo6OjMmiEDiWn0ylnzrotLS3kh7TVxUz0CgD/MfkvQK5fJlEfjxnI2YYjIyOf19TUnKZzoIzMJGs2Vx/A2ZOQbk0mpo7xQ9VmoSwqg4OD71KTt8TvckBDDgEN/HisI8l9Fp8cHMNGQvcotknuk2gA/gY\u002BxV/T/Zom2gAAAABJRU5ErkJggg==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALoSURBVDhPrVRLbxJRFP54DgJtkSIFpY/UlEJp03YhsQmJCxNj3LmQrow/oPEn1K0bY7oy7cbGRZcuTBMf1cSYCEkl2ibQF0RrKQ00lFfoQNuBwTPDSOVlXPglJ3fmzDnffPfccy7\u002BKyqVikx6hNFoNFut1n7ptS1yuVwqkUhESwTJ1Rper3cmEonw\u002B/v7fDQabWk/d3fLS0tLPrfbfUNGkFJbY3p6eiadTvN/Q7FQ4EOhELe8vOwfGxtzS6l1kEtrDVSG9lYNUUxNTblfLC4\u002BJ9JrVdc5mghb4VUwg7kPMZR4IJ/PY29vT36xu3vk0ezsgl6vH5TCRLQkbFSWOAUebxaxkiyjb2AAWq0WqVQKtt5eq0qlclGKuprZQChsqZFMMINWAbtRhWehJOIVLex2O8bHx2EymeQKpVJHaSqRgNCgUKRssizHwcGc4FaXGp8ix\u002BD5svQNMnnDadcTUgwJarIOBjiQn8Jp0KJSktX8rdBAeL7NE47H\u002Bx8sHn5MYy7Iw8XosZ3IQ60Q1AmhrRnbbjkQP4X3TQYLOyy\u002Bxgo4Zku4OdiBey7DH3HNqD8UiqnwgkKqsoKH7sIZcHYCdS6P6x0auGw6mAxMNa41X6NCAUJkBSN0qi9vX8K7u1fw\u002Bn4vvJ7LkFP5aWCIjBqyjUKFtGJ0dNTNcdwd6iv4fD58j4ShLGRg08pw1aTF07knsFot2NjYxNHRERhGhfn5hcK3tbW3BZbdIQpO4KlTaDabEYsd0CREcXh4iHK5LDZxIBDA0NAQgsEgbDabSLi6\u002BgUTExOUVa\u002B0jrC/vw/hcFgk7uzsBMseQ1C8vr4GnU4Hujyg0TBIJpPY2tqGw\u002BGQMs\u002BhlFYRFosFw8N2UmNHsVgUayUQejwe0RePx2mrDCYnJ5HNZsWfKOSKOlG1Lu/p6XE4nc4H1F9yJY0TFV9sOGEQhJ4jH4Q79fdgCD6KKfn9/hWq/WdysYK/8ZLsItOQ1Yb9H1Aky5CRAOAXvPiZo6l2iV0AAAAASUVORK5CYII=",
               "WhenOpened": "2024-11-07T14:57:09.513Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "ProjectOne\\AssemblyInfo.cs",
-              "ToolTip": "C:\\project-one\\ProjectOne\\AssemblyInfo.cs",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\AssemblyInfo.cs",
               "RelativeToolTip": "ProjectOne\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -233,11 +232,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\App.xaml.cs",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\App.xaml.cs",
               "RelativeDocumentMoniker": "ProjectOne\\App.xaml.cs",
-              "ToolTip": "C:\\project-one\\ProjectOne\\App.xaml.cs",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\App.xaml.cs",
               "RelativeToolTip": "ProjectOne\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -245,50 +244,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "ToDoList.xaml",
-              "DocumentMoniker": "C:\\project-one\\ProjectOne\\ToDoList.xaml",
+              "DocumentMoniker": "E:\\PRN-Proj\\project-one\\ProjectOne\\ToDoList.xaml",
               "RelativeDocumentMoniker": "ProjectOne\\ToDoList.xaml",
-              "ToolTip": "C:\\project-one\\ProjectOne\\ToDoList.xaml",
+              "ToolTip": "E:\\PRN-Proj\\project-one\\ProjectOne\\ToDoList.xaml",
               "RelativeToolTip": "ProjectOne\\ToDoList.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-02T15:52:56.777Z"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 126,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "WhenOpened": "2024-11-02T15:52:56.777Z",
+              "EditorCaption": ""
             }
           ]
         }

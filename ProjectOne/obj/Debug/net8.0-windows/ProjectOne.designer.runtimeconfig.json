@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\ASUS\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\ASUS\\.nuget\\packages"
+      "C:\\Users\\fptsh\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\fptsh\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
