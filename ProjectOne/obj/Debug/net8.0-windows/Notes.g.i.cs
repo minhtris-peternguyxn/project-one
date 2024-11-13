@@ -54,7 +54,7 @@ namespace ProjectOne {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ProjectOne;component/notes.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ProjectOne;V1.0.0.0;component/notes.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Notes.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

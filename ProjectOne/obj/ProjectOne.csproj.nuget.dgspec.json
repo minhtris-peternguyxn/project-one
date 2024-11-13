@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PRN-Proj\\project-one\\ProjectOne\\ProjectOne.csproj": {}
+    "C:\\Users\\fptsh\\OneDrive\\Documents\\GitHub\\project-one\\ProjectOne\\ProjectOne.csproj": {}
   },
   "projects": {
-    "E:\\PRN-Proj\\project-one\\ProjectOne\\ProjectOne.csproj": {
+    "C:\\Users\\fptsh\\OneDrive\\Documents\\GitHub\\project-one\\ProjectOne\\ProjectOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PRN-Proj\\project-one\\ProjectOne\\ProjectOne.csproj",
+        "projectUniqueName": "C:\\Users\\fptsh\\OneDrive\\Documents\\GitHub\\project-one\\ProjectOne\\ProjectOne.csproj",
         "projectName": "ProjectOne",
-        "projectPath": "E:\\PRN-Proj\\project-one\\ProjectOne\\ProjectOne.csproj",
+        "projectPath": "C:\\Users\\fptsh\\OneDrive\\Documents\\GitHub\\project-one\\ProjectOne\\ProjectOne.csproj",
         "packagesPath": "C:\\Users\\fptsh\\.nuget\\packages\\",
-        "outputPath": "E:\\PRN-Proj\\project-one\\ProjectOne\\obj\\",
+        "outputPath": "C:\\Users\\fptsh\\OneDrive\\Documents\\GitHub\\project-one\\ProjectOne\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fptsh\\AppData\\Roaming\\NuGet\\NuGet.Config",

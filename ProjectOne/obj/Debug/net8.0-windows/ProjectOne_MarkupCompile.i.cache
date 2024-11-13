@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\PRN-Proj\project-one\ProjectOne\obj\Debug\net8.0-windows\
+C:\Users\fptsh\OneDrive\Documents\GitHub\project-one\ProjectOne\obj\Debug\net8.0-windows\
 ProjectOne
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-E:\PRN-Proj\project-one\ProjectOne\App.xaml
+C:\Users\fptsh\OneDrive\Documents\GitHub\project-one\ProjectOne\App.xaml
 51973530640
 3-1649972570
 121291490968
 207-872117778
 AlarmClock.xaml;MainWindow.xaml;Notes.xaml;Pomodoro.xaml;ToDoList.xaml;
 
-True
+False
 
