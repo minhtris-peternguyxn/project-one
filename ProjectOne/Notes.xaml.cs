@@ -1,168 +1,113 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Threading;
-using System.IO;
-using System.Text.Json;
-using System.Windows.Forms;
 
 namespace ProjectOne
 {
     public partial class Notes : Window
     {
-        private NotifyIcon trayIcon;
         private List<Note> notes;
 
         public Notes()
         {
             InitializeComponent();
-            notes = Note.LoadFromFile("notes.json");
-            InitializeTrayIcon();
+            notes = Note.LoadAllNotes();
+            RefreshNotesList();
         }
 
-        private void InitializeTrayIcon()
+        private void RefreshNotesList()
         {
-            trayIcon = new NotifyIcon
-            {
-                Icon = new System.Drawing.Icon("Resources/notes.ico"),
-                Visible = true,
-                Text = "Notes App"
-            };
-            trayIcon.DoubleClick += TrayIcon_DoubleClick;
-        }
-
-        private void TrayIcon_DoubleClick(object sender, EventArgs e)
-        {
-            this.Show();
-            this.WindowState = WindowState.Normal;
-            this.Activate();
-        }
-
-        protected override void OnClosed(EventArgs e)
-        {
-            trayIcon.Visible = false;
-            base.OnClosed(e);
-        }
-
-        private void ClearButton_Click(object sender, RoutedEventArgs e)
-        {
-            NotesTextBox.Clear();
-        }
-        private void CalendarControl_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
-        {
-            DateOnly selectedDate = DateOnly.FromDateTime(CalendarControl.SelectedDate ?? DateTime.Now);
-            var selectedNotes = notes.Where(n => n.Date == selectedDate).ToList();
-
-            NotesListBox.ItemsSource = selectedNotes;
-
-            if (selectedNotes.Any())
-            {
-                NotesTextBox.Text = selectedNotes.First().Text;
-                NotesListBox.SelectedItem = null;
-            }
-            else
-            {
-                NotesTextBox.Clear();
-                NotesListBox.SelectedItem = null;
-            }
-        }
-
-        private void RefreshCalendar()
-        {
-            DateOnly selectedDate = DateOnly.FromDateTime(CalendarControl.SelectedDate ?? DateTime.Now);
-            var selectedNotes = notes.Where(n => n.Date == selectedDate).ToList();
-
-            NotesListBox.ItemsSource = selectedNotes;
-
-            if (selectedNotes.Any())
-            {
-                NotesTextBox.Text = selectedNotes.First().Text;
-                NotesListBox.SelectedItem = null;
-            }
-            else
-            {
-                NotesTextBox.Clear();
-                NotesListBox.SelectedItem = null;
-            }
+            NotesListBox.ItemsSource = notes.Select(n => new { n.Title, CreatedDate = n.CreatedDate.ToString("g") }).ToList();
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(NotesTextBox.Text))
+            if (string.IsNullOrWhiteSpace(NotesTextBox.Text) || string.IsNullOrWhiteSpace(TitleTextBox.Text))
             {
-                System.Windows.MessageBox.Show("Please enter a note.");
+                System.Windows.MessageBox.Show("Please enter both title and content.");
                 return;
             }
 
-            Note? selectedNote = NotesListBox.SelectedItem as Note;
-
-            if (selectedNote != null)
+            // Kiểm tra nếu title đã tồn tại
+            var existingNote = notes.FirstOrDefault(n => n.Title == TitleTextBox.Text);
+            if (existingNote != null)
             {
-                selectedNote.Text = NotesTextBox.Text;
-
-                NotesListBox.ItemsSource = notes.Where(n => n.Date == selectedNote.Date).ToList();
-
-                NotesListBox.SelectedItem = selectedNote;
-
-                SaveNotesToFile();
+                // Nếu có note với title này, update nội dung
+                existingNote.Text = NotesTextBox.Text;
+                existingNote.CreatedDate = DateTime.Now;//thêm time
+                existingNote.SaveToFile();
             }
             else
             {
-                DateOnly selectedDate = DateOnly.FromDateTime(CalendarControl.SelectedDate ?? DateTime.Now);
-                Note newNote = new Note(NotesTextBox.Text, selectedDate);
-
+                // Nếu không có, tạo mới
+                var newNote = new Note(TitleTextBox.Text, NotesTextBox.Text, DateTime.Now);
                 notes.Add(newNote);
-
-                NotesListBox.ItemsSource = notes.Where(n => n.Date == selectedDate).ToList();
-
-                NotesListBox.SelectedItem = newNote;
-
-                newNote.SaveToFile("notes.json");
+                newNote.SaveToFile();
             }
 
+            TitleTextBox.Clear();
             NotesTextBox.Clear();
-
-            RefreshCalendar();
+            RefreshNotesList();
         }
 
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
-            if (NotesListBox.SelectedItem != null)
+            if (NotesListBox.SelectedItem is not null)
             {
-                Note? selectedNote = NotesListBox.SelectedItem as Note;
-                if (selectedNote != null)
+                var selectedTitle = ((dynamic)NotesListBox.SelectedItem).Title;
+                var note = notes.FirstOrDefault(n => n.Title == selectedTitle);
+
+                if (note != null)
                 {
-                    notes.Remove(selectedNote);
+                    string filePath = System.IO.Path.Combine(Note.NotesDirectory, $"{note.Title}.txt");
+                    if (File.Exists(filePath))
+                        File.Delete(filePath);
 
-                    DateOnly selectedDate = DateOnly.FromDateTime(CalendarControl.SelectedDate ?? DateTime.Now);
-                    NotesListBox.ItemsSource = notes.Where(n => n.Date == selectedDate).ToList();
-
-                    SaveNotesToFile();
-                }
-            }
-
-            RefreshCalendar();
-        }
-
-        private void SaveNotesToFile()
-        {
-            string json = JsonSerializer.Serialize(notes, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText("notes.json", json);
-        }
-
-        private void NotesListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            if (NotesListBox.SelectedItem != null)
-            {
-                Note? selectedNote = NotesListBox.SelectedItem as Note;
-                if (selectedNote != null)
-                {
-                    NotesTextBox.Text = selectedNote.Text;
+                    notes.Remove(note);
+                    RefreshNotesList();
                 }
             }
         }
+
+
+
+            private void NotesListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (NotesListBox.SelectedItem is not null)
+            {
+                var selectedTitle = ((dynamic)NotesListBox.SelectedItem).Title;
+                var note = notes.FirstOrDefault(n => n.Title == selectedTitle);
+
+                if (note != null)
+                {
+                    TitleTextBox.Text = note.Title;
+                    NotesTextBox.Text = note.Text;
+                }
+            }
+        }
+
+        private void ClearButton_Click(object sender, RoutedEventArgs e)
+        {
+            TitleTextBox.Clear();
+            NotesTextBox.Clear();
+        }
+
+        private void TitleTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // Kiểm tra nội dung trong TextBox và ẩn hoặc hiển thị placeholder
+            if (string.IsNullOrWhiteSpace(TitleTextBox.Text))
+            {
+                PlaceholderText.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                PlaceholderText.Visibility = Visibility.Collapsed;
+            }
+        }
+
     }
 }

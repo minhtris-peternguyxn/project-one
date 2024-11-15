@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectOne\\project-one\\ProjectOne\\ProjectOne.csproj": {}
+    "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\ProjectOne.csproj": {}
   },
   "projects": {
-    "D:\\ProjectOne\\project-one\\ProjectOne\\ProjectOne.csproj": {
+    "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\ProjectOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectOne\\project-one\\ProjectOne\\ProjectOne.csproj",
+        "projectUniqueName": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\ProjectOne.csproj",
         "projectName": "ProjectOne",
-        "projectPath": "D:\\ProjectOne\\project-one\\ProjectOne\\ProjectOne.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectOne\\project-one\\ProjectOne\\obj\\",
+        "projectPath": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\ProjectOne.csproj",
+        "packagesPath": "C:\\Users\\tritri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\tritri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +39,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

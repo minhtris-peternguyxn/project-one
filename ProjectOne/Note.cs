@@ -1,50 +1,64 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text.Json;
+using System.Linq;
 
 namespace ProjectOne
 {
     public class Note
     {
+        public string Title { get; set; }
         public string Text { get; set; }
-        public DateOnly Date { get; set; }
+        public DateTime CreatedDate { get; set; }
 
-        public Note(string text, DateOnly date)
+        public Note(string title, string text, DateTime createdDate)
         {
+            Title = title;
             Text = text;
-            Date = date;
+            CreatedDate = createdDate;
         }
 
-        public void SaveToFile(string fileName)
-        {
-            var notes = LoadFromFile(fileName);
-            notes.Add(this);
+        public static string NotesDirectory => Path.Combine(Directory.GetCurrentDirectory(), "Resources", "Notes");
 
-            string json = JsonSerializer.Serialize(notes, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(fileName, json);
+
+        public void SaveToFile()
+        {
+            Directory.CreateDirectory(NotesDirectory);
+            string fileName = Path.Combine(NotesDirectory, $"{Title}.txt");
+
+            string content = $"Title: {Title}\nCreated Date: {CreatedDate}\n\n{Text}";
+            File.WriteAllText(fileName, content);
+
+            Console.WriteLine($"File saved at: {Path.GetFullPath(fileName)}");
+            MessageBox.Show($"File saved at: {Path.GetFullPath(fileName)}");
+
         }
 
-        public static List<Note> LoadFromFile(string fileName)
+        public static List<Note> LoadAllNotes()
         {
-            if (!File.Exists(fileName))
-            {
-                File.WriteAllText(fileName, "[]");
-                return new List<Note>();
-            }
+            var notes = new List<Note>();
+            if (!Directory.Exists(NotesDirectory))
+                return notes;
 
-            try
+            var files = Directory.GetFiles(NotesDirectory, "*.txt");
+            foreach (var file in files)
             {
-                string json = File.ReadAllText(fileName);
+                try
+                {
+                    string[] lines = File.ReadAllLines(file);
+                    string title = lines.FirstOrDefault()?.Replace("Title: ", "").Trim() ?? "Untitled";
+                    string createdDateStr = lines.Skip(1).FirstOrDefault()?.Replace("Created Date: ", "").Trim();
+                    DateTime.TryParse(createdDateStr, out DateTime createdDate);
 
-                var notes = JsonSerializer.Deserialize<List<Note>>(json);
-                return notes ?? new List<Note>();  
+                    string text = string.Join("\n", lines.Skip(3));
+                    notes.Add(new Note(title, text, createdDate));
+                }
+                catch
+                {
+                    // Ignore malformed files
+                }
             }
-            catch (JsonException ex)
-            {
-                Console.WriteLine($"Error deserializing JSON: {ex.Message}");
-                return new List<Note>();
-            }
+            return notes.OrderByDescending(n => n.CreatedDate).ToList();
         }
     }
 }
