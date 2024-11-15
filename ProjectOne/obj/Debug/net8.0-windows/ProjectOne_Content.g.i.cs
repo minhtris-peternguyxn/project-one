@@ -11,5 +11,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/army-ringtones.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/congrat.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/timer-icon.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/notes.ico")]
 
 
