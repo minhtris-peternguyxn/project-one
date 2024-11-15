@@ -10,30 +10,34 @@
             📓 Notes App
         </TextBlock>
 
+        <!-- Sidebar Notes History -->
         <Border Background="#FFFFFF" BorderBrush="#3C6E71" BorderThickness="1" CornerRadius="10"
-                HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Height="500" Margin="0,60,20,0"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Height="500" Margin="10,34,0,0"
                 Padding="10">
             <Border.Effect>
                 <DropShadowEffect ShadowDepth="5" BlurRadius="10" Color="Gray" Opacity="0.5"/>
             </Border.Effect>
             <StackPanel>
-                <Label Content="📅 Calendar" FontWeight="Bold" Foreground="#353535" FontSize="16" Margin="0,0,0,10"/>
-
-                <Calendar Name="CalendarControl" SelectedDatesChanged="CalendarControl_SelectedDatesChanged" />
-
-                <Label Content="📝 Notes for the selected date" FontWeight="Bold" Foreground="#353535" FontSize="14.6" Margin="0,20,0,10"/>
-
-                <ListBox Name="NotesListBox" Height="209" Background="#F0F0F0" BorderBrush="#E5E5E5" BorderThickness="1" SelectionChanged="NotesListBox_SelectionChanged">
+                <Label Content="📝 Notes History" FontWeight="Bold" Foreground="#353535" FontSize="16" Margin="0,0,0,10"/>
+                <ListBox x:Name="NotesListBox" Height="430" Background="#F0F0F0" BorderBrush="#E5E5E5" BorderThickness="1" SelectionChanged="NotesListBox_SelectionChanged">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding Text}" TextWrapping="Wrap" MaxWidth="200"/>
+                            <StackPanel Orientation="Horizontal" Margin="5">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="14"/>
+                                    <TextBlock Text="{Binding CreatedDate}" FontSize="12" Foreground="Gray"/>
+                                </StackPanel>
+                                <!-- Delete Button -->
+                                <Button Content="🗑" Width="30" Height="30" Margin="10,0,0,0" 
+                                        Click="DeleteButton_Click" Background="#ED6A5A" Foreground="White" BorderBrush="Transparent"/>
+                            </StackPanel>
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
-
             </StackPanel>
         </Border>
 
+        <!-- Note Editor Section -->
         <Border Background="#FFFFFF" BorderBrush="#3C6E71" BorderThickness="1" CornerRadius="10"
                 HorizontalAlignment="Right" VerticalAlignment="Top" Width="580" Height="500" Margin="0,60,0,0"
                 Padding="20">
@@ -41,12 +45,22 @@
                 <DropShadowEffect ShadowDepth="5" BlurRadius="10" Color="Gray" Opacity="0.5"/>
             </Border.Effect>
             <StackPanel>
-                <TextBox Name="NotesTextBox" Margin="0,0,0,20" Height="370" FontSize="14" AcceptsReturn="True" TextWrapping="Wrap" Background="#F0F0F0" BorderBrush="#C7D3D4" BorderThickness="1"/>
+                <!-- Title TextBox with Placeholder -->
+                <Grid Margin="0,0,0,10" Height="30">
+                    <TextBox Name="TitleTextBox" FontSize="14" Background="#F0F0F0" BorderBrush="#C7D3D4" BorderThickness="1"
+                             TextChanged="TitleTextBox_TextChanged"/>
+                    <TextBlock Name="PlaceholderText" Text="Enter Title Here" Foreground="Gray" VerticalAlignment="Center" Margin="5,0,0,0" 
+                               IsHitTestVisible="False" Visibility="Visible"/>
+                </Grid>
 
+                <!-- Notes TextBox -->
+                <TextBox Name="NotesTextBox" Margin="0,0,0,20" Height="330" FontSize="14" AcceptsReturn="True" 
+                         TextWrapping="Wrap" Background="#F0F0F0" BorderBrush="#C7D3D4" BorderThickness="1"/>
+
+                <!-- Buttons -->
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
                     <Button Name="SaveButton" Content="Save" Width="80" Margin="10" Click="SaveButton_Click" Background="#3C6E71" Foreground="White" FontWeight="Bold" />
                     <Button Name="ClearButton" Content="Clear" Width="80" Margin="10" Click="ClearButton_Click" Background="#D9BF77" Foreground="White" FontWeight="Bold" />
-                    <Button Name="DeleteButton" Content="Delete" Width="80" Margin="10" Click="DeleteButton_Click" Background="#ED6A5A" Foreground="White" FontWeight="Bold" />
                 </StackPanel>
             </StackPanel>
         </Border>
