@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectOne"
         mc:Ignorable="d"
-        Title="To-Do List" Height="450" Width="800"
+        Title="To-Do List" Height="450" Width="635"
         Background="#F5F5F5">
     <Window.Resources>
         <!-- Button Style -->
@@ -76,7 +76,7 @@
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,20">
             <TextBox x:Name="NewTodoTextBox" Width="200" />
             <Button Content="Add Todo" Click="AddTodoButton_clicked" Width="100"/>
-            <Button Content="Suggest a work" Click="SuggestTaskButton_Clicked"  Width="100"/>
+            <Button Content="Suggest a work" Click="SuggestTaskButton_Clicked"  Width="160" Background="Orange"/>
         </StackPanel>
     </Grid>
 </Window>

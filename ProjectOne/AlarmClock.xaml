@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectOne"
         mc:Ignorable="d"
-        Title="AlarmClock" Height="450" Width="800">
+        Title="AlarmClock" Height="450" Width="635" WindowStartupLocation="CenterScreen">
 
     <Grid>
         <!-- Nền chính -->
-        <Rectangle HorizontalAlignment="Center" Height="414" Stroke="Black" VerticalAlignment="Center" Width="756" Fill="#A7C7E7"/>
+        <Rectangle HorizontalAlignment="Center" Height="434" Stroke="Black" VerticalAlignment="Center" Width="636" Fill="#A7C7E7"/>
 
         <!-- Tiêu đề -->
         <Label Content="SET ALARM TIME" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,23,0,0" FontSize="20" FontWeight="ExtraBold"/>
@@ -43,7 +43,7 @@
             </StackPanel>
 
             <!-- Dấu : -->
-            <Label Content=":" Grid.Column="1" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Label Content=":" Grid.Column="1" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,3,0,0"/>
 
             <!-- TextBox nhập phút -->
             <StackPanel Grid.Column="2" HorizontalAlignment="Center">
@@ -73,28 +73,19 @@
                 VerticalAlignment="Top" 
                 HorizontalAlignment="Center" 
                 Click="SetAlarmButton_Click"
-                Background="#5DADE2" 
+                Background="OrangeRed" 
                 Foreground="White" 
                 FontWeight="Bold"/>
 
-        <!-- Hiển thị thời gian hiện tại -->
-        <Label x:Name="CurrentTimeLabel" 
-               Content="Current Time: --:--:--" 
-               HorizontalAlignment="Left" 
-               Margin="255,343,0,0" 
-               VerticalAlignment="Top" 
-               Background="#40B5AD" 
-               FontSize="14" 
-               Padding="5"/>
 
         <!-- Hiển thị trạng thái -->
         <Label x:Name="StatusLabel" 
                Content="Status: Waiting" 
                HorizontalAlignment="Left" 
-               Margin="445,343,0,0" 
+               Margin="208,340,0,0" 
                VerticalAlignment="Top" 
                Background="#F1948A" 
                FontSize="14" 
-               Padding="5"/>
+               Padding="5" RenderTransformOrigin="0.319,0.7"/>
     </Grid>
 </Window>

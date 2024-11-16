@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "w9phFxdY+go=",
+  "dgSpecHash": "h4UlG1DOrHk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\ProjectOne.csproj",
+  "projectFilePath": "C:\\Users\\fptsh\\OneDrive\\Documents\\GitHub\\project-one\\ProjectOne\\ProjectOne.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tritri\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\fptsh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
