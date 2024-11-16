@@ -100,3 +100,6 @@ C:\Users\tritri\Desktop\ProjectOne\ProjectOne\ProjectOne\obj\Debug\net8.0-window
 C:\Users\tritri\Desktop\ProjectOne\ProjectOne\ProjectOne\obj\Debug\net8.0-windows\ProjectOne.pdb
 C:\Users\tritri\Desktop\ProjectOne\ProjectOne\ProjectOne\obj\Debug\net8.0-windows\ProjectOne.genruntimeconfig.cache
 C:\Users\tritri\Desktop\ProjectOne\ProjectOne\ProjectOne\obj\Debug\net8.0-windows\ref\ProjectOne.dll
+C:\Users\tritri\Desktop\ProjectOne\ProjectOne\ProjectOne\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\tritri\Desktop\ProjectOne\ProjectOne\ProjectOne\obj\Debug\net8.0-windows\ProjectOne.csproj.AssemblyReference.cache
+C:\Users\tritri\Desktop\ProjectOne\ProjectOne\ProjectOne\obj\Debug\net8.0-windows\ProjectOne.csproj.Up2Date

@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\notes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\notes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\alarmclock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\alarmclock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\notes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\notes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\pomodoro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\pomodoro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\alarmclock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\alarmclock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +37,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\pomodoro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\pomodoro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\todolist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\todolist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\notes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\notes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\notes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|solutionrelative:projectone\\notes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AB63F9D-DF57-42B3-8853-B437FC5FD4D9}|ProjectOne\\ProjectOne.csproj|c:\\users\\tritri\\desktop\\projectone\\projectone\\projectone\\aihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,74 +70,177 @@
       "DocumentGroups": [
         {
           "DockedHeight": 11,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "Notes.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Notes.xaml.cs",
               "RelativeDocumentMoniker": "ProjectOne\\Notes.xaml.cs",
               "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Notes.xaml.cs",
               "RelativeToolTip": "ProjectOne\\Notes.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwEkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T11:02:15.662Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlarmClock.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\AlarmClock.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectOne\\AlarmClock.xaml.cs",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\AlarmClock.xaml.cs",
+              "RelativeToolTip": "ProjectOne\\AlarmClock.xaml.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAuwNMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T02:46:53.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Notes.xaml",
-              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Notes.xaml",
-              "RelativeDocumentMoniker": "ProjectOne\\Notes.xaml",
-              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Notes.xaml",
-              "RelativeToolTip": "ProjectOne\\Notes.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T17:18:43.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Note.cs",
-              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Note.cs",
-              "RelativeDocumentMoniker": "ProjectOne\\Note.cs",
-              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Note.cs",
-              "RelativeToolTip": "ProjectOne\\Note.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA+wCEAAAAAAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectOne\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProjectOne\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAEwHQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:52:22.296Z",
+              "WhenOpened": "2024-11-16T04:02:23.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Pomodoro.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Pomodoro.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectOne\\Pomodoro.xaml.cs",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Pomodoro.xaml.cs",
+              "RelativeToolTip": "ProjectOne\\Pomodoro.xaml.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAswPEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T03:18:18.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Pomodoro.xaml",
               "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Pomodoro.xaml",
               "RelativeDocumentMoniker": "ProjectOne\\Pomodoro.xaml",
               "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Pomodoro.xaml",
               "RelativeToolTip": "ProjectOne\\Pomodoro.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T16:57:16.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T16:57:16.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "AlarmClock.xaml",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\AlarmClock.xaml",
+              "RelativeDocumentMoniker": "ProjectOne\\AlarmClock.xaml",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\AlarmClock.xaml",
+              "RelativeToolTip": "ProjectOne\\AlarmClock.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T02:46:47.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Todo.cs",
+              "RelativeDocumentMoniker": "ProjectOne\\Todo.cs",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Todo.cs",
+              "RelativeToolTip": "ProjectOne\\Todo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T03:14:11.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "ProjectOne\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\AssemblyInfo.cs",
+              "RelativeToolTip": "ProjectOne\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T03:17:47.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ProjectOne\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\MainWindow.xaml",
               "RelativeToolTip": "ProjectOne\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T16:55:31.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T16:55:31.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Note.cs",
+              "RelativeDocumentMoniker": "ProjectOne\\Note.cs",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Note.cs",
+              "RelativeToolTip": "ProjectOne\\Note.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:52:22.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ToDoList.xaml",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\ToDoList.xaml",
+              "RelativeDocumentMoniker": "ProjectOne\\ToDoList.xaml",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\ToDoList.xaml",
+              "RelativeToolTip": "ProjectOne\\ToDoList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T03:17:11.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Todos.cs",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Todos.cs",
+              "RelativeDocumentMoniker": "ProjectOne\\Todos.cs",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Todos.cs",
+              "RelativeToolTip": "ProjectOne\\Todos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T02:41:47.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\App.xaml",
+              "RelativeDocumentMoniker": "ProjectOne\\App.xaml",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\App.xaml",
+              "RelativeToolTip": "ProjectOne\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T03:01:14.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Notes.xaml",
+              "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Notes.xaml",
+              "RelativeDocumentMoniker": "ProjectOne\\Notes.xaml",
+              "ToolTip": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\Notes.xaml",
+              "RelativeToolTip": "ProjectOne\\Notes.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T17:18:43.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AIHelper.cs",
               "DocumentMoniker": "C:\\Users\\tritri\\Desktop\\ProjectOne\\ProjectOne\\ProjectOne\\AIHelper.cs",
               "RelativeDocumentMoniker": "ProjectOne\\AIHelper.cs",
@@ -109,8 +248,7 @@
               "RelativeToolTip": "ProjectOne\\AIHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T16:50:33.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T16:50:33.092Z"
             }
           ]
         }

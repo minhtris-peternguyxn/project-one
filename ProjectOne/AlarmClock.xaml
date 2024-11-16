@@ -8,30 +8,93 @@
         Title="AlarmClock" Height="450" Width="800">
 
     <Grid>
+        <!-- Nền chính -->
         <Rectangle HorizontalAlignment="Center" Height="414" Stroke="Black" VerticalAlignment="Center" Width="756" Fill="#A7C7E7"/>
-        <Label Content="SET ARLAM TIME" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,23,0,0" FontSize="20" FontWeight="ExtraBold"/>
-        <Rectangle HorizontalAlignment="Center" Height="250" Margin="0,74,0,0" Stroke="Black" VerticalAlignment="Top" Width="290" Fill="#f9e79f"/>
 
-        <!-- TextBox cho giờ -->
-        <Grid Margin="20,50,0,0" HorizontalAlignment="Left">
+        <!-- Tiêu đề -->
+        <Label Content="SET ALARM TIME" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,23,0,0" FontSize="20" FontWeight="ExtraBold"/>
+
+        <!-- Nền cho cb box -->
+        <Rectangle HorizontalAlignment="Center" Height="250" Margin="0,74,0,0" Stroke="Black" VerticalAlignment="Top" Width="290" Fill="#F9E79F"/>
+
+        <!-- Khu vực nhập -->
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,100,0,0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="400*"/>
-                <ColumnDefinition Width="101*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="100"/>
             </Grid.ColumnDefinitions>
-            <TextBox x:Name="HourTextBox" VerticalAlignment="Top" TextChanged="HourTextBox_TextChanged" Margin="400,94,-94,0" Height="98" Grid.ColumnSpan="2"/>
-            <TextBlock x:Name="HourPlaceholder" Text="HH" Foreground="Gray" IsHitTestVisible="False" VerticalAlignment="Top" Margin="320,323,62,0" RenderTransformOrigin="0.667,1.632"/>
+
+            <!-- TextBox nhập giờ -->
+            <StackPanel Grid.Column="0" HorizontalAlignment="Center">
+                <TextBox x:Name="HourTextBox" 
+                         Width="80" 
+                         Height="40" 
+                         FontSize="16" 
+                         HorizontalAlignment="Center" 
+                         TextAlignment="Center"
+                         TextChanged="HourTextBox_TextChanged"/>
+                <TextBlock x:Name="HourPlaceholder" 
+                           Text="HH" 
+                           Foreground="Gray" 
+                           FontSize="14" 
+                           HorizontalAlignment="Center" 
+                           IsHitTestVisible="False"/>
+            </StackPanel>
+
+            <!-- Dấu : -->
+            <Label Content=":" Grid.Column="1" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <!-- TextBox nhập phút -->
+            <StackPanel Grid.Column="2" HorizontalAlignment="Center">
+                <TextBox x:Name="MinuteTextBox" 
+                         Width="80" 
+                         Height="40" 
+                         FontSize="16" 
+                         HorizontalAlignment="Center" 
+                         TextAlignment="Center"
+                         TextChanged="MinuteTextBox_TextChanged"/>
+                <TextBlock x:Name="MinutePlaceholder" 
+                           Text="MM" 
+                           Foreground="Gray" 
+                           FontSize="14" 
+                           HorizontalAlignment="Center" 
+                           IsHitTestVisible="False"/>
+            </StackPanel>
         </Grid>
 
-        <!-- TextBox cho phút -->
-        <Grid Margin="80,50,0,0" HorizontalAlignment="Left">
-            <TextBlock x:Name="MinutePlaceholder" Text="MM" Foreground="Gray" IsHitTestVisible="False" VerticalAlignment="Top" Margin="292,323,-45,0"/>
-            <TextBox x:Name="MinuteTextBox" VerticalAlignment="Top" TextChanged="MinuteTextBox_TextChanged" Margin="205,94,-23,0" RenderTransformOrigin="0.374,6.127" Height="98"/>
-        </Grid>
+        <!-- Nút Set Alarm -->
+        <Button x:Name="SetAlarmButton" 
+                Content="Set Alarm" 
+                Width="120" 
+                Height="40" 
+                FontSize="14" 
+                Margin="0,220,0,0" 
+                VerticalAlignment="Top" 
+                HorizontalAlignment="Center" 
+                Click="SetAlarmButton_Click"
+                Background="#5DADE2" 
+                Foreground="White" 
+                FontWeight="Bold"/>
 
-        <Button x:Name="SetAlarmButton" Content="Set Alarm" Width="100" HorizontalAlignment="Left" Margin="347,274,0,0" VerticalAlignment="Top" Click="SetAlarmButton_Click" Style="{StaticResource AlramButtonStyle}"/>
-        <Label x:Name="CurrentTimeLabel" Content="Current Time: " HorizontalAlignment="Left" Margin="255,343,0,0" VerticalAlignment="Top" Background="#40B5AD"/>
-        <Label x:Name="StatusLabel" Content="Status: Waiting" HorizontalAlignment="Left" Margin="445,343,0,0" VerticalAlignment="Top" Background="#f1948a"/>
-        <TextBox x:Name="HourTextBox_Copy" VerticalAlignment="Top" TextChanged="HourTextBox_TextChanged" Margin="392,161,392,0" Height="13" RenderTransformOrigin="-0.667,-0.766"/>
-        <TextBox x:Name="HourTextBox_Copy1" VerticalAlignment="Center" TextChanged="HourTextBox_TextChanged" Margin="392,0,392,0" Height="13" RenderTransformOrigin="-0.667,-0.766"/>
+        <!-- Hiển thị thời gian hiện tại -->
+        <Label x:Name="CurrentTimeLabel" 
+               Content="Current Time: --:--:--" 
+               HorizontalAlignment="Left" 
+               Margin="255,343,0,0" 
+               VerticalAlignment="Top" 
+               Background="#40B5AD" 
+               FontSize="14" 
+               Padding="5"/>
+
+        <!-- Hiển thị trạng thái -->
+        <Label x:Name="StatusLabel" 
+               Content="Status: Waiting" 
+               HorizontalAlignment="Left" 
+               Margin="445,343,0,0" 
+               VerticalAlignment="Top" 
+               Background="#F1948A" 
+               FontSize="14" 
+               Padding="5"/>
     </Grid>
 </Window>

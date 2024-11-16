@@ -60,6 +60,11 @@ namespace ProjectOne
                 Text = "Pomodoro Timer - Click to manage."
             };
             notifyIcon.DoubleClick += NotifyIcon_DoubleClick;
+
+            // Hiển thị thông báo khi ứng dụng ẩn vào tray
+            notifyIcon.BalloonTipTitle = "Pomodoro Minimized";
+            notifyIcon.BalloonTipText = "Pomodoro Timer is running in the background.";
+            notifyIcon.BalloonTipIcon = ToolTipIcon.Info;
         }
 
         private void NotifyIcon_DoubleClick(object sender, EventArgs e)
@@ -67,6 +72,22 @@ namespace ProjectOne
             Show();
             WindowState = WindowState.Normal; // Khôi phục lại cửa sổ nếu nó đang thu nhỏ
             Activate();
+        }
+        protected override void OnStateChanged(EventArgs e)
+        {
+            base.OnStateChanged(e);
+
+            if (WindowState == WindowState.Minimized)
+            {
+                // Ẩn cửa sổ khi minimize
+                Hide();
+                notifyIcon.ShowBalloonTip(3000); // Hiển thị thông báo trong 3 giây
+            }
+            else if (WindowState == WindowState.Normal)
+            {
+                // Hiển thị lại cửa sổ khi không minimize
+                Show();
+            }
         }
 
         private void ShowNotification(string title, string message)
