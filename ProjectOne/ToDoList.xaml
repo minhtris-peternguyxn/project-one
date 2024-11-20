@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectOne"
         mc:Ignorable="d"
-        Title="To-Do List" Height="450" Width="635"
-        Background="#F5F5F5">
+        Title="To-Do List" Height="600" Width="900"
+        Background="#F5F5F5" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <!-- Button Style -->
         <Style TargetType="Button">
@@ -40,7 +40,7 @@
         </Grid.RowDefinitions>
 
         <!-- Header -->
-        <Rectangle HorizontalAlignment="Center" Height="392" Margin="0,42,0,0" Grid.RowSpan="3" Stroke="Black" VerticalAlignment="Top" Width="800" Fill="#aed6f1"/>
+        <Rectangle HorizontalAlignment="Center" Height="542" Margin="0,42,0,0" Grid.RowSpan="3" Stroke="Black" VerticalAlignment="Top" Width="900" Fill="#aed6f1"/>
 
         <!-- Header -->
         <TextBlock Text="My To-Do List" 

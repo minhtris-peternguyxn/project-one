@@ -2,11 +2,11 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:ProjectOne"
-        Title="Notes App" Height="600" Width="900" Background="#F5F5F5" WindowStartupLocation="CenterScreen">
+        Title="Notes App" Height="650" Width="900" Background="#F5F5F5" WindowStartupLocation="CenterScreen">
 
     <Grid Margin="20">
-        <TextBlock FontSize="28" FontWeight="Bold" Foreground="#3C6E71" 
-                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0">
+        <TextBlock FontSize="28" FontWeight="Bold" Foreground="#FF4CAF50" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="280,10,0,0">
             📓 Notes App
         </TextBlock>
 
@@ -18,7 +18,7 @@
                 <DropShadowEffect ShadowDepth="5" BlurRadius="10" Color="Gray" Opacity="0.5"/>
             </Border.Effect>
             <StackPanel>
-                <Label Content="📝 Notes History" FontWeight="Bold" Foreground="#353535" FontSize="16" Margin="0,0,0,10"/>
+                <Label Content="📝 Notes History" FontWeight="Bold" Foreground="OrangeRed" FontSize="16" Margin="0,0,0,10"/>
                 <ListBox x:Name="NotesListBox" Height="430" Background="#F0F0F0" BorderBrush="#E5E5E5" BorderThickness="1" SelectionChanged="NotesListBox_SelectionChanged">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
@@ -47,10 +47,14 @@
             <StackPanel>
                 <!-- Title TextBox with Placeholder -->
                 <Grid Margin="0,0,0,10" Height="30">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="27*"/>
+                        <ColumnDefinition Width="242*"/>
+                    </Grid.ColumnDefinitions>
                     <TextBox Name="TitleTextBox" FontSize="14" Background="#F0F0F0" BorderBrush="#C7D3D4" BorderThickness="1"
-                             TextChanged="TitleTextBox_TextChanged"/>
+                             TextChanged="TitleTextBox_TextChanged" Grid.ColumnSpan="2"/>
                     <TextBlock Name="PlaceholderText" Text="Enter Title Here" Foreground="Gray" VerticalAlignment="Center" Margin="5,0,0,0" 
-                               IsHitTestVisible="False" Visibility="Visible"/>
+                               IsHitTestVisible="False" Visibility="Visible" Grid.ColumnSpan="2"/>
                 </Grid>
 
                 <!-- Notes TextBox -->
@@ -59,8 +63,8 @@
 
                 <!-- Buttons -->
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
-                    <Button Name="SaveButton" Content="Save" Width="80" Margin="10" Click="SaveButton_Click" Background="#3C6E71" Foreground="White" FontWeight="Bold" />
-                    <Button Name="ClearButton" Content="Clear" Width="80" Margin="10" Click="ClearButton_Click" Background="#D9BF77" Foreground="White" FontWeight="Bold" />
+                    <Button Name="SaveButton" Content="Save" Width="80" Margin="10" Click="SaveButton_Click" Background="#FF4CAF50" Foreground="White" FontWeight="Bold" />
+                    <Button Name="ClearButton" Content="Clear" Width="80" Margin="10" Click="ClearButton_Click" Background="Orange" Foreground="White" FontWeight="Bold" />
                 </StackPanel>
             </StackPanel>
         </Border>

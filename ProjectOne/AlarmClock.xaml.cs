@@ -153,8 +153,7 @@ namespace ProjectOne
 
                     // Tính thời gian còn lại cho báo thức
                     TimeSpan timeUntilAlarm = alarmDateTime - currentTime;
-                    StatusLabel.Content = $"Alarm set for {alarmDateTime:yyyy-MM-dd HH:mm} (in {timeUntilAlarm.Hours}h {timeUntilAlarm.Minutes}m {timeUntilAlarm.Seconds}s)";
-
+                    StatusLabel.Content = $"Alarm set for {alarmDateTime:yyyy-MM-dd HH:mm}";
                     System.Windows.MessageBox.Show($"Alarm set successfully for {alarmDateTime:HH:mm}.\nTime left: {timeUntilAlarm.Hours} hours, {timeUntilAlarm.Minutes} minutes, {timeUntilAlarm.Seconds} seconds.", "Alarm Set", MessageBoxButton.OK, MessageBoxImage.Information);
                     SaveAlarmData(); // Lưu trạng thái báo thức
                 }

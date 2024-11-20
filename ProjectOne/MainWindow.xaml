@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectOne"
         mc:Ignorable="d"
-        Title="Homepage" Height="685" Width="1265" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Homepage" Height="450" Width="750" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <!-- Welcome Message -->
         <TextBlock Text="Welcome to ProjectOne" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
